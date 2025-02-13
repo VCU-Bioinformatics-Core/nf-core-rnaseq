@@ -1,13 +1,13 @@
 # nf-core-rnaseq
 
 ## Purpose
-This is a template repository to be used to do quality control and alignment for all bulk RNASeq dataset coming into the BISR.  The output from the nf-core/rnaseq pipeline is a read count matrix that can be utilized in other downstream [BISR bulk RNASeq pipelines]().
+This is a template repository to be used to do quality control and alignment for all bulk RNASeq dataset coming into the BISR.  The output from the nf-core/rnaseq pipeline is a read count matrix that can be utilized in other downstream [BISR bulk RNASeq pipelines](https://github.com/VCU-Bioinformatics-Core/bulk_rnaseq_analyses).
 
 ## Quick Start
 
 - Create a new Git repository under the BISR organization and check the "create from template" box, then select this repo from the drop down.
 
-- Follow the instructions for using the bulk RNASeq nf-core pipeline on the BISR Wiki: [RNASeq Step by Step Guide](https://github.com/VCU-Bioinformatics-Core/bioinformatics-epicenter-pipelines/wiki/RNA-seq-Step-by-Step-Guide)
+- Follow the instructions for using the bulk RNASeq nf-core pipeline on the BISR Wiki: [**RNASeq Step by Step Guide**](https://github.com/VCU-Bioinformatics-Core/bioinformatics-epicenter-pipelines/wiki/RNA-seq-Step-by-Step-Guide)
 
 - Briefly:
   - Ensure you have the correct NextFlow version installed. [Prepare Your Environment](https://github.com/VCU-Bioinformatics-Core/bioinformatics-epicenter-pipelines/wiki/RNA-seq-Step-by-Step-Guide#preparing-your-environment)
