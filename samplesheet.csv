@@ -1,0 +1,5 @@
+sample,fastq_1,fastq_2,strandedness
+M9017_HD,/path/to/fastq/file/M9017_HD_R1.fq.gz,/path/to/fastq/file/M9017_HD_R2.fq.gz,auto
+M9018_HD,/path/to/fastq/file/M9018_HD_R1.fq.gz,/path/to/fastq/file/M9018_HD_R2.fq.gz,auto
+M9020_E2,/path/to/fastq/file/M9020_E2_R1.fq.gz,/path/to/fastq/file/M9020_E2_R2.fq.gz,auto
+M9021_E2,/path/to/fastq/file/M9021_E2_R1.fq.gz,/path/to/fastq/file/M9021_E2_R2.fq.gz,auto
