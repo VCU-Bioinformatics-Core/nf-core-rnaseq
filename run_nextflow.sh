@@ -7,13 +7,12 @@ set -euo pipefail
 #SBATCH --output ./logs/nextflow."%j".out
 
 ##  Name the job
-#SBATCH --job-name Nextflow
+#SBATCH --job-name rnaseq_nf
 
 ##  Verbose
 #SBATCH --export=ALL
 
 ## Memory and cpu slots
-#SBATCH --partition cpu
 #SBATCH --mem 32G
 #SBATCH --cpus-per-task 8
 #SBATCH --ntasks=1
@@ -53,7 +52,7 @@ find "$WORKDIR" -type d -empty -delete
 
 
 #######################################################
-# Example commmandline script usage:
-# BRANCH=3.17 bash run_nextflow.sh params.yml
+# Example commmandline script usage for a specific nf-core rnaseq version (runs latest version by default):
+# BRANCH=3.17.0 bash run_nextflow.sh params.yml
 
 # EOF
